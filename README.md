@@ -4,9 +4,9 @@
   <a href="https://creativedesignsguru.com/demo/Eleventy-Starter-Boilerplate/eleventy-starter-boilerplate-presentation/"><img src="public/assets/images/eleventy-js-starter-boilerplate.png?raw=true" alt="Eleventy starter banner"></a>
 </p>
 
-🚀 Eleventy Starter Boilerplate is production-ready with SEO-friendly for quickly starting a blog. ⚡️ Built with [Eleventy](https://www.11ty.dev), [ESLint](https://eslint.org), [Prettier](https://prettier.io), [Webpack](https://webpack.js.org), [PostCSS](https://postcss.org), [Tailwind CSS](https://tailwindcss.com) and [Netlify CMS](https://www.netlifycms.org) (optional).
+🚀 Eleventy Starter Boilerplate is production-ready and SEO-friendly. ⚡️ Built with [Eleventy](https://www.11ty.dev), [ESLint](https://eslint.org), [Prettier](https://prettier.io), [Webpack](https://webpack.js.org), [PostCSS](https://postcss.org), [Tailwind CSS](https://tailwindcss.com) and [Netlify CMS](https://www.netlifycms.org) (optional).
 
-Clone this project and use it to create your own [Eleventy](https://www.11ty.dev) blog. You can check a [Eleventy templates demo](https://creativedesignsguru.com/demo/Eleventy-Starter-Boilerplate/eleventy-starter-boilerplate-presentation/).
+Clone this project and use it to create your own [Eleventy](https://www.11ty.dev) site. You can check a [Eleventy templates demo](https://creativedesignsguru.com/demo/Eleventy-Starter-Boilerplate/eleventy-starter-boilerplate-presentation/).
 
 ### Features
 
@@ -31,7 +31,6 @@ Production-ready in mind:
 - 📖 Pagination
 - ✅ Cache busting
 - 💯 Maximize lighthouse score
-- 🌈 Include a FREE minimalist blog theme
 - 🗒 Netlify CMS (optional)
 
 ### Philosophy
@@ -84,10 +83,9 @@ Open http://localhost:8080 with your favorite browser to see your blog.
     ├── _includes
     │   └── layouts    # HTML layout files
     ├── assets         # Assets folder that needs to be processed by Webpack
-    │   ├── images
-    │   │   └── posts  # Images used in your blog posts (will be compressed by Webpack)
-    │   └── styles     # Your blog CSS files
-    └── posts          # Your blog posts
+        ├── images
+        │   └── posts  # Images used in your blog posts (will be compressed by Webpack)
+        └── styles     # Your blog CSS files
 ```
 
 ### Customization
